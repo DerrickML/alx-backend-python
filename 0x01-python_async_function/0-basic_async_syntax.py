@@ -5,7 +5,8 @@ import random
 
 
 async def wait_random(max_delay: int = 10) -> float:
-    """Wait for a random delay between 0 and max_delay seconds.
+    """
+    Wait for a random delay between 0 and max_delay seconds.
     
     Parameters:
     max_delay (int): The maximum delay in seconds. Default is 10.
